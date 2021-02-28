@@ -1,0 +1,42 @@
+#N 6      ; number of vertices n in graph (from 1 to n)
+#D 4.5              ; Deadline is at time 4.5
+#V1                  ; Vertex 1, nothing of interest
+#V2 P2               ; Vertex 2, initially contains 1 person to be rescued
+#V3 P2                 ; Vertex 3,
+#V4 P2               ;
+#V5                  ;
+#V6               ; Vertex 4, initially contains 2 persons to be rescued
+#V7                  ; Vertex 1, nothing of interest
+#V8                ; Vertex 2, initially contains 1 person to be rescued
+#V9                  ; Vertex 3,
+#V10 P2               ;
+#V11                   ;
+#V12               ; Vertex 4, initially contains 2 persons to be rescued
+#V13                  ; Vertex 1, nothing of interest
+#V14 P2               ; Vertex 2, initially contains 1 person to be rescued
+#V15                ; Vertex 2, initially contains 1 person to be rescued
+
+
+
+#E1 1 2 W7                 ; Edge 1 from vertex 1 to vertex 2, weight 1
+#E2 1 7 W2                 ; Edge 2 from vertex 3 to vertex 4, weight 1
+#E3 1 8 W3
+#E4 2 4 W1                 ; Edge 4 from vertex 1 to vertex 3, weight 4
+#E5 2 11 W5                 ; Edge 5 from vertex 2 to vertex 4, weight 5
+#E5 4 7 W2
+#E5 4 15 W3                 ; Edge 5 from vertex 2 to vertex 4, weight 5
+#E5 5 15 W3                 ; Edge 5 from vertex 2 to vertex 4, weight 5
+#E5 5 8 W4                 ; Edge 5 from vertex 2 to vertex 4, weight 5
+#E5 5 13 W2                 ; Edge 5 from vertex 2 to vertex 4, weight 5
+#E5 6 14 W1                 ; Edge 5 from vertex 2 to vertex 4, weight 5
+#E5 7 13 W5                 ; Edge 5 from vertex 2 to vertex 4, weight 5
+#E5 7 10 W4
+#E5 7 12 W6
+#E5 8 13 W9                 ; Edge 5 from vertex 2 to vertex 4, weight 5
+#E5 8 10 W5
+#E5 9 14 W1                 ; Edge 5 from vertex 2 to vertex 4, weight 5
+#E5 9 11 W2                 ; Edge 5 from vertex 2 to vertex 4, weight 5
+#E5 9 12 W5                 ; Edge 5 from vertex 2 to vertex 4, weight 5
+#E5 10 11 W5                 ; Edge 5 from vertex 2 to vertex 4, weight 5
+#E5 12 14 W3
+#E5 13 15 W7                 ; Edge 5 from vertex 2 to vertex 4, weight 5
